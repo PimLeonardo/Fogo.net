@@ -7,13 +7,13 @@
 body {
 	font-size: 1em;
 	font-family:"Trebuchet MS", Helvetica, sans-serif; 
-	background: #1C1C1C;
+	background: #F8F8FF;
 }
 /* 
 ******************Layout do site
 */
 #cabecalho {
-	background-color: #F8F8FF;
+	background-color: #1C1C1C;
 	padding: 15px;
 	text-align: center;
 }
@@ -28,15 +28,51 @@ body {
 }
 
 h1 {
-	color: #1C1C1C;
+	color: #F8F8FF;
 	font-size: 2.5em;
 }
 
+h2 {
+	padding: 10px;
+}
+
 .net {
-	color: #1C1C1C;
+	color: #F8F8FF;
 	font-size: 1.4em;
 }
 
+#area-principal{
+	width: 920px;
+	margin: 0 auto;	
+	padding: 15px;
+}
+
+#area-post {
+	width: 730px;
+	float: left;
+	padding: 10px;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;	
+}
+
+.img{
+	margin:65px;
+}
+
+#area-lateral {
+	width: 90px;
+	float: right;;
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+}
 /*
 *****************Formatação do menu
 */
@@ -45,7 +81,7 @@ a {
 }
 
 a:link, a:visited {
-	color: #1C1C1C;
+	color: #F8F8FF;
 	padding: 8px 12px;
 }
 

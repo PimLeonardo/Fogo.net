@@ -65,7 +65,10 @@ h2 {
 
 #area-lateral {
 	width: 90px;
-	float: right;;
+	float: right;
+	position: absolute;
+	right: 400px; 
+	bottom: 50px; 
 }
 
 #rodape{

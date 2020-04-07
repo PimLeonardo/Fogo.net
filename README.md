@@ -1,2 +1,2 @@
 # Fogo.net
-Brincando XD
+Site para o Botafogo para fins de teste de conhecimento

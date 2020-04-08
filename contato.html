@@ -39,9 +39,67 @@
 
 			<div id="area-post">
 				
-				<div class="postagem">
-					<h2>Sobre a História</h2>
-				</div>
+				<div class="postagem"><!--FORMULARIO PARA CONTATO-->
+					<h2>Contato</h2>
+					<div align="center">
+						
+						<form>
+                        	<span class="formu">Nome: <input type="name" value="Nome" id="nome" onfocus="if (this.value=='Nome') this.value='';" onblur="if (this.value=='') this.value='Nome'"></span>
+
+                        	<span class="formu">E-mail: <input type="email" value="E-mail" id="email" onfocus="if (this.value=='E-mail') this.value='';" onblur="if (this.value=='') this.value='E-mail'"></span>
+
+                        	<div class="formu">Estado 
+                        		<select>
+                        			<option></option>
+                        			<option>AC</option>
+                        			<option>AL</option>
+                        			<option>AP</option>
+                        			<option>AM</option>
+                        			<option>BA</option>
+                        			<option>CE</option>
+                        			<option>DF</option>
+                        			<option>ES</option>
+                        			<option>GO</option>
+                        			<option>MA</option>
+                        			<option>MT</option>
+                        			<option>MS</option>
+                        			<option>MG</option>
+                        			<option>PA</option>
+                        			<option>PB</option>
+                        			<option>PR</option>
+                        			<option>PE</option>
+                        			<option>PI</option>
+                        			<option>RJ</option>
+                        			<option>RN</option>
+                        			<option>RS</option>
+                        			<option>RO</option>
+                        			<option>RR</option>
+                        			<option>SC</option>
+                        			<option>SP</option>
+                        			<option>SE</option>
+                        			<option>TO</option>
+                        		</select>
+                        	</div>
+
+                        	<div class="formu">
+                        		Está satisfeito: <input type="radio" checked="" name="satisfeito" value="Sim" id="sim">Sim <input type="radio" name="satisfeito" value="Não" id="nao"> Não
+                        	</div>
+
+                        	<div class="formu">
+                        		<textarea style="width: 500px; height: 100px;"></textarea><br>
+                        	</div>
+
+                        	<div class="formu">
+                        		<form oninput="enviado.value=(enviado)">
+                        	</div>
+
+                        	<div class="formu">
+                        		<input style="height: 30px; width: 100px;" type="submit" value="Enviar" id="enviar">
+                        	</div>
+                    	</form>
+						
+					</div>	
+				</div><!--FIM DO FORMULARIO PARA CONTATO-->
 
 			</div>
 			<div id="area-lateral">

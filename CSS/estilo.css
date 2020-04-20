@@ -77,10 +77,6 @@ h2 {
 	padding: 20px;
 }
 
-.formu{
-	padding: 4px;
-	margin: 10px;
-}
 /*
 *****************Formatação do menu
 */
@@ -97,4 +93,38 @@ a:hover {
 	color: #DCDCDC;
 	background: #808080;
 	padding: 12px;
+}
+
+/* FORMULARIO */
+
+fieldset {
+	padding: 1em;
+	border: 1px solid #ccc;
+	margin: 1em 0;
+}
+
+legend{
+	font-weight: bold;
+}
+
+label{
+	display: block;
+	cursor: pointer;	
+}
+
+input{
+	width: 15em;
+}
+
+textarea{
+	width: 20em;
+	height: 5em;
+}
+
+input.radio, input.checkbox, input.submit{
+	width: auto;
+}
+
+.radio {
+	margin-right: 1em;
 }

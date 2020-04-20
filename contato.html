@@ -41,64 +41,114 @@
 				
 				<div class="postagem"><!--FORMULARIO PARA CONTATO-->
 					<h2>Contato</h2>
-					<div align="center">
+
+
+
+
+
+
+
+
+
+
+
+
+					
 						
 						<form>
-                        	<span class="formu">Nome: <input type="name" value=""placeholder="Nome" id="nome" onfocus="if (this.value=='Nome') this.value='';" onblur="if (this.value=='') this.value='Nome'"></span>
+							<fieldset>
+								<legend>Detralhes do Contato</legend>
 
-                        	<span class="formu">E-mail: <input type="email" value=""placeholder="E-mail" id="email" onfocus="if (this.value=='E-mail') this.value='';" onblur="if (this.value=='') this.value='E-mail'"></span>
+								<div>
+									<label for="nome">Nome:</label>
+									<input type="text" name="nome" id="nome" placeholder="Nome">
+								</div>
 
-                        	<div class="formu">Estado 
-                        		<select>
-                        			<option></option>
-                        			<option>AC</option>
-                        			<option>AL</option>
-                        			<option>AP</option>
-                        			<option>AM</option>
-                        			<option>BA</option>
-                        			<option>CE</option>
-                        			<option>DF</option>
-                        			<option>ES</option>
-                        			<option>GO</option>
-                        			<option>MA</option>
-                        			<option>MT</option>
-                        			<option>MS</option>
-                        			<option>MG</option>
-                        			<option>PA</option>
-                        			<option>PB</option>
-                        			<option>PR</option>
-                        			<option>PE</option>
-                        			<option>PI</option>
-                        			<option>RJ</option>
-                        			<option>RN</option>
-                        			<option>RS</option>
-                        			<option>RO</option>
-                        			<option>RR</option>
-                        			<option>SC</option>
-                        			<option>SP</option>
-                        			<option>SE</option>
-                        			<option>TO</option>
-                        		</select>
-                        	</div>
+								<div>
+									<label for="email">E-mail:</label>
+									<input type="text" name="nome" id="email" placeholder="E-mail">
+								</div>
+							
+							
+                        		<label for="estado">Estado</label>
+	                        		<select id="estado">
+	                        			<option>     </option>
+	                        			<option>AC</option>
+	                        			<option>AL</option>
+	                        			<option>AP</option>
+	                        			<option>AM</option>
+	                        			<option>BA</option>
+	                        			<option>CE</option>
+	                        			<option>DF</option>
+	                        			<option>ES</option>
+	                        			<option>GO</option>
+	                        			<option>MA</option>
+	                        			<option>MT</option>
+	                        			<option>MS</option>
+	                        			<option>MG</option>
+	                        			<option>PA</option>
+	                        			<option>PB</option>
+	                        			<option>PR</option>
+	                        			<option>PE</option>
+	                        			<option>PI</option>
+	                        			<option>RJ</option>
+	                        			<option>RN</option>
+	                        			<option>RS</option>
+	                        			<option>RO</option>
+	                        			<option>RR</option>
+	                        			<option>SC</option>
+	                        			<option>SP</option>
+	                        			<option>SE</option>
+	                        			<option>TO</option>
+	                        		</select>
+	                    	</fieldset>
 
-                        	<div class="formu">
-                        		Está satisfeito: <input type="radio" checked="" name="satisfeito" value="Sim" id="sim">Sim <input type="radio" name="satisfeito" value="Não" id="nao"> Não
-                        	</div>
+	                    	<fieldset>
 
-                        	<div class="formu">
-                        		<textarea style="width: 500px; height: 100px;"></textarea><br>
-                        	</div>
+	                    		<legend>Comentários</legend>
 
-                        	<div class="formu">
-                        		<form oninput="enviado.value=(enviado)">
-                        	</div>
+	                    		<div>
+	                    			<label for="mensagem">Mensagem:</label>
+	                    			<textarea name="mensagem" id="mensagem"></textarea>
+	                    		</div>
 
-                        	<div class="formu">
-                        		<input style="height: 30px; width: 100px;" type="submit" value="Enviar" id="enviar">
-                        	</div>
-                    	</form>
+	                    		<label>Está satisfeito ?</label>
+
+	                    		<div>
+	                    			<label>
+	                    				<input class="radio" type="radio" name="lembrar" id="sim">Sim
+	                    			</label>	
+	                    		</div>
+
+	                    		<div>
+	                    				<label>
+	                    					<input class="radio" type="radio" name="lembrar" id="nao">Não
+	                    				</label>	
+	                    		</div>
+
+	                    	</fieldset>
+
+	                    </form>
 						
-					</div>	
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				</div><!--FIM DO FORMULARIO PARA CONTATO-->
 
 			</div>

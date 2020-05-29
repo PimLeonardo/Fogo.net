@@ -9,6 +9,11 @@ body {
 	font-family:"Trebuchet MS", Helvetica, sans-serif; 
 	background: #F8F8FF;
 }
+
+p{
+	text-align: justify;
+}
+
 /* 
 ******************Layout do site
 */
@@ -34,6 +39,7 @@ h1 {
 
 h2 {
 	padding: 10px;
+	text-align: center
 }
 
 .net {
